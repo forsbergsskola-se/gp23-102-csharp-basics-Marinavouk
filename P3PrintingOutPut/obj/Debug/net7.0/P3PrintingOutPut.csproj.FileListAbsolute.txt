@@ -1,0 +1,14 @@
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\bin\Debug\net7.0\P3PrintingOutPut.exe
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\bin\Debug\net7.0\P3PrintingOutPut.deps.json
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\bin\Debug\net7.0\P3PrintingOutPut.runtimeconfig.json
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\bin\Debug\net7.0\P3PrintingOutPut.dll
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\bin\Debug\net7.0\P3PrintingOutPut.pdb
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\obj\Debug\net7.0\P3PrintingOutPut.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\obj\Debug\net7.0\P3PrintingOutPut.AssemblyInfoInputs.cache
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\obj\Debug\net7.0\P3PrintingOutPut.AssemblyInfo.cs
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\obj\Debug\net7.0\P3PrintingOutPut.csproj.CoreCompileInputs.cache
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\obj\Debug\net7.0\P3PrintingOutPut.dll
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\obj\Debug\net7.0\refint\P3PrintingOutPut.dll
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\obj\Debug\net7.0\P3PrintingOutPut.pdb
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\obj\Debug\net7.0\P3PrintingOutPut.genruntimeconfig.cache
+C:\Projects\gp23-102-csharp-basics-Marinavouk\P3PrintingOutPut\obj\Debug\net7.0\ref\P3PrintingOutPut.dll
