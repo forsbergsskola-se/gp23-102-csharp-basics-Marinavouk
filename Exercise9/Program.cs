@@ -4,12 +4,13 @@
 
 Console.Write("Type seconds");
  string sec = Console.ReadLine();
-int s = int.Parse(sec);
-int r = s / 60 ;
-float rest = r % 60;
+int seconds = int.Parse(sec);
+int minutes = seconds / 60 ;
+
+float rest = seconds % 60;
 
 
-Console.WriteLine($"Minutes: {r}");
+Console.WriteLine($"Minutes: {minutes} Seconsd: {rest}" );
 
 
 
