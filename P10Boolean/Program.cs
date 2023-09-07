@@ -10,7 +10,7 @@ bool isChild = true;
 bool isTeenager = true;
 bool isGrownup = true;
 
-isChild = age <= 12;
+isChild = age > 0 && age <= 12;
 isTeenager = age > 12 && age <= 19;
 isGrownup = age > 19;
 
