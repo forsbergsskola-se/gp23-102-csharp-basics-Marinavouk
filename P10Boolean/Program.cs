@@ -5,12 +5,13 @@ using System.Runtime.Versioning;
 Console.WriteLine("What's your age?");
 string ageInput = Console.ReadLine();
 int age = int.Parse(ageInput);
+
 bool isChild = true;
 bool isTeenager = true;
 bool isGrownup = true;
 
 isChild = age <= 12;
-isTeenager = age < 19;
+isTeenager = age > 12 && age < 19;
 isGrownup = age >= 19;
 
 Console.WriteLine($"You are a child: {isChild}");
