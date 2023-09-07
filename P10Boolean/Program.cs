@@ -11,8 +11,8 @@ bool isTeenager = true;
 bool isGrownup = true;
 
 isChild = age <= 12;
-isTeenager = age > 12 && age < 19;
-isGrownup = age >= 19;
+isTeenager = age > 12 && age <= 19;
+isGrownup = age > 19;
 
 Console.WriteLine($"You are a child: {isChild}");
 Console.WriteLine($"You are a teenager: {isTeenager}");
