@@ -11,7 +11,7 @@ if (age <= 12)
 }
 else if (age <= 19)
 {
-            Console.WriteLine("You are a teenagers");
+            Console.WriteLine("You are a teenager");
 }
 else
 {
@@ -32,15 +32,15 @@ else
             Console.WriteLine($"The maximum is: {secondNumber}");
 }
 
-if ( age % 2 == 0)
+if ( (age + secondNumber) % 2 == 0)
 {
-            Console.WriteLine("The code is even");
+            Console.WriteLine("The maximum of number is even");
           
 }
 
 else
 {
-Console.WriteLine("The number is odd");
+          Console.WriteLine("The maximum of both numbers is odd");
 }
 
 
