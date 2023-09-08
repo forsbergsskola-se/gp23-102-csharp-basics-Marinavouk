@@ -9,7 +9,7 @@ if (age <= 12)
 {
             Console.WriteLine("You are a child");
 }
-else if (age > 12 && age < 19)
+else if (age <= 19)
 {
             Console.WriteLine("You are a teenagers");
 }
