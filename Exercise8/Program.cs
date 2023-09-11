@@ -11,9 +11,9 @@ Console.WriteLine("Type length of the other side");
 string side2 = Console.ReadLine();
 float b = float.Parse(side2);
 
-float calc = (a * a) - (b * b);
+float calc = (a * a) + (b * b);
 
-double tot = Math.Sqrt(calc);
+double tot = Math.Sqrt(calc);  
 
 Console.WriteLine($"{tot}");
 

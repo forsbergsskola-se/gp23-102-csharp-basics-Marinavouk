@@ -3,7 +3,8 @@
 //converts it to minutes and remaining seconds, then displays the result.
 
 Console.Write("Type seconds");
- string sec = Console.ReadLine();
+string sec = Console.ReadLine();
+
 int seconds = int.Parse(sec);
 int minutes = seconds / 60 ;
 
