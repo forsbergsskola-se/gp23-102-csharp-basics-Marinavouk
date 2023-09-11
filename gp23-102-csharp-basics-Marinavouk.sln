@@ -38,7 +38,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10Boolean", "P10Boolean\P1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11IfElse", "P11IfElse\P11IfElse.csproj", "{D4B82881-4B09-4D3D-AF54-4A8E051A4D46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p9SpeeedConverter", "p9SpeeedConverter\p9SpeeedConverter.csproj", "{EECC4A94-7ACB-4ECD-99E9-9C980C4CB8B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11Grades", "P11Grades\P11Grades.csproj", "{EECC4A94-7ACB-4ECD-99E9-9C980C4CB8B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
