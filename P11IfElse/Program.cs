@@ -5,7 +5,7 @@ Console.WriteLine("What's your age?");
 string ageInput = Console.ReadLine();
 int age = int.Parse(ageInput);
 
-if (age <= 12)
+if (age <= 12) 
 {
             Console.WriteLine("You are a child");
 }
@@ -19,29 +19,29 @@ else
 }
 
 Console.WriteLine("Give me another integer.");
-string secondInput = Console.ReadLine();
-int secondNumber = int.Parse(secondInput);
 
-if (secondNumber < age)
+int secondNumber = int.Parse(Console.ReadLine());
+int max;
+if (secondNumber > age)
 {
-            Console.WriteLine($"The maximum is: {age}");
+    max = secondNumber;
+    Console.WriteLine($"The  maximum is : {max}");
 }
-
 else
 {
-            Console.WriteLine($"The maximum is: {secondNumber}");
+    max = age;
+    Console.WriteLine($"The maximum is: {max}");
 }
-
-if ( (age + secondNumber) % 2 == 0)
+if ( max % 2 == 0)
 {
-            Console.WriteLine("The maximum of number is even");
-          
+    Console.WriteLine("The maximum of number is even");
 }
-
 else
 {
-          Console.WriteLine("The maximum of both numbers is odd");
+    Console.WriteLine("The maximum of both numbers is odd");
 }
+
+
 
 
 
