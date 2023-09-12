@@ -30,3 +30,5 @@ else
     Console.WriteLine("No Crit");
 }
 Console.WriteLine(random.NextDouble() > critChance ? "Crit" : "No Crit");
+Console.WriteLine(random.NextDouble() > critChance ? "Crit" : "No Crit");
+Console.WriteLine(random.NextDouble() > critChance ? "Crit" : "No Crit");
