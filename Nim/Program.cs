@@ -8,16 +8,23 @@ Console.WriteLine("|||||||||||||||||||||||| (24)");
 int totalMatches = 24;
 
 matches:
-Console.WriteLine("How many matches do you want to draw?");
-int userInput = int.Parse(Console.ReadLine());
+if (totalMatches == 0)
+{
+    Console.WriteLine("You won");
+}
+else
+{
+
+
+    Console.WriteLine("How many matches do you want to draw?");
+    int userInput = int.Parse(Console.ReadLine());
 
 // if not right amount: show error then go to matches
-if (userInput > 0 && userInput < 4) 
-{
-    if (totalMatches >= 0 && totalMatches <= 24)
+    if (userInput > 0 && userInput < 4)
     {
-        if (totalMatches > 0)
+        if (totalMatches >= 0 && totalMatches <= 24)
         {
+
             int leftMatches = totalMatches - userInput;
             Console.WriteLine("Draw matches here later: " + leftMatches);
             totalMatches -= userInput;
@@ -26,20 +33,13 @@ if (userInput > 0 && userInput < 4)
             int aiMatches = totalMatches - aiChoice;
             Console.WriteLine(aiMatches);
             totalMatches -= aiChoice;
-
-
-
+            goto matches;
         }
+
+
         else
         {
-            if (totalMatches == 0)
-            {
-                Console.WriteLine("You won");
-            }
-            else
-            {
-                Console.WriteLine("You lost");
-            }
+            Console.WriteLine("Game Over");
         }
 
 
@@ -48,16 +48,27 @@ if (userInput > 0 && userInput < 4)
 
 
 
-        goto matches;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
+    else
+    {
+        Console.WriteLine("Invalid input, try again");
+        goto matches;
+    }
+
+    Console.WriteLine("You lost");
 }
-
-else
-{
-    Console.WriteLine("Invalid input, try again");
-    goto matches;
-}
-
-
 
