@@ -1,78 +1,42 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-
-using System.ComponentModel.Design;
-
-Console.WriteLine("Welcome to Nim!");
+﻿Console.WriteLine("Welcome to Nim!");
 Console.WriteLine("|||||||||||||||||||||||| (24)");
 int totalMatches = 24;
 
 matches:
-if (totalMatches == 0)
-{
-    Console.WriteLine("You lost");
-}
-else if (totalMatches == 1)
-{
-    Console.WriteLine("You won");
-}
-else
-{
-
-
-    Console.WriteLine("How many matches do you want to draw?");
-    int userInput = int.Parse(Console.ReadLine());
+Console.WriteLine("How many matches do you want to draw?");
+int userInput = int.Parse(Console.ReadLine());
 
 // if not right amount: show error then go to matches
-    if (userInput > 0 && userInput < 4)
-    {
-        if (totalMatches >= 0 && totalMatches <= 24)
-        {
-
-            int leftMatches = totalMatches - userInput;
-            Console.WriteLine("Draw matches here later: " + leftMatches);
-            totalMatches -= userInput;
-
-            int aiChoice = 1;
-            int aiMatches = totalMatches - aiChoice;
-            Console.WriteLine(aiMatches);
-            totalMatches -= aiChoice;
-            goto matches;
-        }
-
-
-        else
-        {
-            Console.WriteLine("Game Over");
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
-    else
-    {
-        Console.WriteLine("Invalid input, try again");
-        goto matches;
-    }
-
-    
+if (userInput <= 0 || userInput >= 4)
+{
+    Console.WriteLine("Invalid input, try again");
+    goto matches;
+}
+// ALWAYS IS AN ELSE
+// BECAUSE IF THE IF IS TRUE
+// IT WILL NEVER REACH HERE
+totalMatches -= userInput;
+Console.WriteLine("Draw matches here later: " + totalMatches);
+// if no match left: show lose and go to game over
+if (totalMatches == 0)
+{
+    Console.WriteLine("You lose");
+    goto GameOver;
 }
 
+    
+
+int aiChoice = 1;
+totalMatches -= aiChoice;
+Console.WriteLine(totalMatches);
+// if no match left: show win (lose for ai) and go to game over
+if (totalMatches == 0)
+{
+    Console.WriteLine("You won");
+    goto GameOver;
+}
+goto matches;
+
+
+
+GameOver:;
