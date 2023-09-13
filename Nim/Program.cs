@@ -10,6 +10,10 @@ int totalMatches = 24;
 matches:
 if (totalMatches == 0)
 {
+    Console.WriteLine("You lost");
+}
+else if (totalMatches == 1)
+{
     Console.WriteLine("You won");
 }
 else
@@ -69,6 +73,6 @@ else
         goto matches;
     }
 
-    Console.WriteLine("You lost");
+    
 }
 
