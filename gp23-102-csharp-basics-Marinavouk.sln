@@ -64,6 +64,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13Dollar", "P13Dollar\P13D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13DollarTriangle", "P13DollarTriangle\P13DollarTriangle.csproj", "{3BD4F225-E67C-4810-954E-C623EB470772}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13Pattern", "P13Pattern\P13Pattern.csproj", "{89CEB21C-E77D-4F45-B0FA-C6EC2574AB4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -198,5 +200,9 @@ Global
 		{3BD4F225-E67C-4810-954E-C623EB470772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BD4F225-E67C-4810-954E-C623EB470772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BD4F225-E67C-4810-954E-C623EB470772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89CEB21C-E77D-4F45-B0FA-C6EC2574AB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CEB21C-E77D-4F45-B0FA-C6EC2574AB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CEB21C-E77D-4F45-B0FA-C6EC2574AB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CEB21C-E77D-4F45-B0FA-C6EC2574AB4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
