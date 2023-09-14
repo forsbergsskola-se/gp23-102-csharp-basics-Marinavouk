@@ -58,6 +58,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13GoTo", "P13GoTo\P13GoTo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nim", "Nim\Nim.csproj", "{72BC82AB-0F0F-4CE7-B860-D5FDE9BACF33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{2B415496-A586-435F-9D11-8FE1CE1DF0F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13Dollar", "P13Dollar\P13Dollar.csproj", "{7D00563D-D6BB-430B-8A47-FC507A1DAFA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -180,5 +184,13 @@ Global
 		{72BC82AB-0F0F-4CE7-B860-D5FDE9BACF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72BC82AB-0F0F-4CE7-B860-D5FDE9BACF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72BC82AB-0F0F-4CE7-B860-D5FDE9BACF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B415496-A586-435F-9D11-8FE1CE1DF0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B415496-A586-435F-9D11-8FE1CE1DF0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B415496-A586-435F-9D11-8FE1CE1DF0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B415496-A586-435F-9D11-8FE1CE1DF0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D00563D-D6BB-430B-8A47-FC507A1DAFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D00563D-D6BB-430B-8A47-FC507A1DAFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D00563D-D6BB-430B-8A47-FC507A1DAFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D00563D-D6BB-430B-8A47-FC507A1DAFA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
