@@ -12,21 +12,19 @@ if (userInput <= 0 || userInput >= 4)
     Console.WriteLine("Invalid input, try again");
     goto matches;
 }
-// ALWAYS IS AN ELSE
-// BECAUSE IF THE IF IS TRUE
-// IT WILL NEVER REACH HERE
+
 totalMatches -= userInput;
 Console.WriteLine("Draw matches here later: " + totalMatches);
 // if no match left: show lose and go to game over
-if (totalMatches == 0)
+if (totalMatches == 0 || totalMatches == 1)
 {
     Console.WriteLine("You lose");
     goto GameOver;
 }
 
-    
 
-int aiChoice = 1;
+int aiChoice = Random.Shared.Next(1, 4);
+
 totalMatches -= aiChoice;
 Console.WriteLine(totalMatches);
 // if no match left: show win (lose for ai) and go to game over
