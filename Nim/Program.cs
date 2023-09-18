@@ -16,7 +16,7 @@ if (userInput <= 0 || userInput >= 4)
 totalMatches -= userInput;
 Console.WriteLine("Draw matches here later: " + totalMatches);
 // if no match left: show lose and go to game over
-if (totalMatches == 0 || totalMatches == 1)
+if (totalMatches == 0 || totalMatches < 0)
 {
     Console.WriteLine("You lose");
     goto GameOver;
